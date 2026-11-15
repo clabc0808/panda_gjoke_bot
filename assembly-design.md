@@ -4,6 +4,9 @@
 > - §4.1 bearings: fixed — 3 × 6804ZZ bought (cart's 608ZZs removed).
 > - §5/§6 eyes: decided — **K230 with two small cameras** (stereo pair at the panda
 >   eyes), superseding the single-camera recommendation in §5. See README.
+> - Charging: inlet changed from plug-in USB-C to the **magnetic pogo pair**
+>   (dock half on a 5 V supply, robot half feeding the IP2326 inside the robot);
+>   hand-parking first, self-docking later. See README / shopping list.
 
 Overnight design work requested 2026-11-15. This report designs how the legged panda
 goes together, maps every wire, budgets the weight, lists everything that is still

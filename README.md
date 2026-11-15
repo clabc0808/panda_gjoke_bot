@@ -23,7 +23,10 @@ and the detailed assembly/wiring design.
   sends results to the Pi over UART, so vision costs the Pi nothing.
 - **Voice out:** MAX98357A I2S amp + 4 Ω 3 W waterproof speaker.
 - **Power:** 4 × high-drain 18650 in 2S2P (7.4 V, ~44 Wh), HW-391 balanced
-  BMS, Pololu 5 V buck for the Pi, USB-C charging (IP2326). No dock in v1.
+  BMS, Pololu 5 V buck for the Pi. Charging is **magnetic, not plug-in**: a
+  pre-wired 4-pin magnetic pogo pair (already bought) is the inlet — the dock
+  half is fed by a plain 5 V supply, the robot half feeds the IP2326 charger
+  inside the robot. Hand-park to charge for now; self-docking comes later.
 
 ## Key design decisions (all settled 2026-11-15)
 
@@ -36,7 +39,8 @@ and the detailed assembly/wiring design.
 | Battery monitor | INA226 ±20 A module (already owned) |
 | 5 V rail | Pololu D36V50F5 buck (full pack range usable, no early cutoff) |
 | Eyes | **K230 + 2 cameras** (stereo), UART results link to Pi GPIO 14/15 |
-| Not fitted (v1) | Lidar (weight), cliff sensors, dock charging |
+| Charging | Magnetic pogo pair inlet (bought for the old wheeled dock, reused); hand-park now, self-dock later |
+| Not fitted (v1) | Lidar (weight), cliff sensors |
 
 Superseded plans, for the record: an earlier wheeled self-balancing design
 (2 × GIM4305 + GDZ34, 6 S pack, CAN HAT) was dropped on 2026-11-15 in favour
