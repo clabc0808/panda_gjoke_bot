@@ -24,9 +24,11 @@ and the detailed assembly/wiring design.
 - **Voice out:** MAX98357A I2S amp + 4 Ω 3 W waterproof speaker.
 - **Power:** 4 × high-drain 18650 in 2S2P (7.4 V, ~44 Wh), HW-391 balanced
   BMS, Pololu 5 V buck for the Pi. Charging is **magnetic, not plug-in**: a
-  pre-wired 4-pin magnetic pogo pair (already bought) is the inlet — the dock
-  half is fed by a plain 5 V supply, the robot half feeds the IP2326 charger
-  inside the robot. Hand-park to charge for now; self-docking comes later.
+  charging cable connects to one half of a pre-wired magnetic pogo pair
+  (already bought); the other half sits on the robot and feeds the IP2326
+  charger inside. The halves touch → it charges. A printed holder keeps the
+  cable-side half in place — no dock electronics. Hand-park for now;
+  self-docking comes later.
 
 ## Key design decisions (all settled 2026-11-15)
 
