@@ -9,9 +9,9 @@ Design mass target ~2.1 kg (3 kg hard ceiling — the servo torque budget).
 This repo holds the proposal, the current build status, the shopping list,
 and the detailed assembly/wiring design.
 
-![The panda — front, the proposed design: camera-lens eyes, smiling speaker grille, short legs](images/panda-look-master-front.webp)
+![The panda — front, the proposed design: camera-lens eyes, smiling speaker grille, short legs](images/panda-look-master-front.svg)
 
-![The panda — back: magnetic charging port on the head, Sipeed mic array at true size as an external plate on the trunk (lidar placement parked)](images/panda-look-master-back.webp)
+![The panda — back: magnetic charging port on the head, Sipeed mic array at true size as an external plate on the trunk (lidar placement parked)](images/panda-look-master-back.svg)
 
 ## The idea
 
