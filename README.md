@@ -30,6 +30,32 @@ and the detailed assembly/wiring design.
   cable-side half in place — no dock electronics. Hand-park for now;
   self-docking comes later.
 
+## Look & proportions — design target (locked 2026-11-16)
+
+Reference renders (local project files): `panda-look-master-front.webp`,
+`panda-look-master-angle.webp`, `panda-look-master-stretched.webp`.
+
+- **Style:** robotic hard panels, visible screws and servo joints.
+  **No plush/soft shell** — rejected on weight.
+- **Total height ~35 cm.** Head ~15 cm, trunk ~9–10 cm, legs 11–13 cm.
+- **Head:** oversized (about half the height), hollow panel shell so the
+  size costs almost no weight. White face panel, black round ears.
+- **Eyes are the cameras:** one lens centred in each black eye patch —
+  K230 mini + two small cameras (GC2093 class) behind the patches.
+  Eye spacing sets the stereo baseline.
+- **Ears** ride on the MG90S servos (they wiggle). **Microphones go inside
+  the ears** — parked for later; he already owns small mics.
+- **Mouth:** a small smiling slot, doubling as the speaker grille.
+- **Trunk:** white belly panel over the Pi 5 + 2S2P pack; short black stub
+  arms, fixed (no servos).
+- **Legs: under 15 cm as a whole** (hip to floor, foot included) — the
+  floor is set by stacking three STS3215 bodies per leg, not by the links.
+  Legs must read shorter than the trunk. **Small-step gait** is the design
+  assumption — no big strides needed. Full knee extension is a standing
+  pose (+~2–3 cm), not the walking posture.
+- **Feet:** big, flat, black, with the soft sole layer (neoprene) under.
+- **Colours:** black / white PLA Matte (on hand).
+
 ## Key design decisions (all settled 2026-11-15)
 
 | Area | Decision |
