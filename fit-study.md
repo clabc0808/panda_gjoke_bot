@@ -43,6 +43,15 @@ proportions (350 total − ~120 legs − 95 trunk − ~25 neck stack ≈ 110–1
    so a matched GC2093 pair is unproven on paper. Acceptable outcomes: ask
    01Studio, or run GC2093 + OV5647 mixed (fine for face tracking; matched
    matters mainly for precise stereo depth).
+4. **Charging pair confirmed: the 2-point version** (~2 A class, not the
+   4-pin ~4 A). Consequence is only speed: ~10 W into the IP2326, pack charge
+   ≈1 A, **full charge ≈5–6 h** — fine for overnight docking, slow for a
+   top-up. Dock and head-port design unchanged. A 4-pin pair is a drop-in
+   upgrade later if faster charging is ever wanted.
+5. **Sipeed array size verified** against Sipeed's own datasheet: the R6+1
+   board really is **78.1 × 88.8 mm** — on the 120 × 95 mm trunk back panel
+   it leaves ~3 mm spare top and bottom. It is the right part and the right
+   number; the back-view render draws it too small.
 
 ---
 
