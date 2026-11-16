@@ -45,7 +45,7 @@ Reference renders (local project files): `panda-look-master-front.webp`,
 - **Head:** oversized (about half the height), hollow panel shell so the
   size costs almost no weight. White face panel, black round ears.
 - **Eyes are the cameras:** one lens centred in each black eye patch —
-  K230 mini + two small cameras (GC2093 class) behind the patches.
+  CanMV K230 (full-size) + two small cameras behind the patches.
   Eye spacing sets the stereo baseline.
 - **Ears** ride on the MG90S servos (they wiggle). **Microphones go inside
   the ears** — parked for later; he already owns small mics.
@@ -89,11 +89,13 @@ replaces it.
   M3 heat-set inserts (M3×5×5 ×50), M3 screw assortment, cable wrap/Dupont/USB.
 - **Still to buy:** HW-391 BMS (pre-soldered-leads variant), Pololu buck
   (Pi Hut), 2S cell holders (series, 3-wire), IP2326 charger board, rocker
-  switch, XT30 pre-wired pairs, Wago 221s, Loctite 243, **K230 board + 2
-  cameras**, 2 × 64 GB A2 microSD, Pi 5 Active Cooler, sole material
-  (3 mm neoprene sheet recommended).
+  switch, XT30 pre-wired pairs, Wago 221s, Loctite 243, **2 eye cameras**
+  (OV5647 pair for the K230's expansion ports, 15 cm FPC), 2 × 64 GB A2
+  microSD, Pi 5 Active Cooler, sole material (3 mm neoprene sheet
+  recommended).
 - **Already owned:** Pi 5 8 GB, Bambu Lab A1 mini (prints the shells),
-  INA226, Sipeed mic array, PLA (black/white/pink matte).
+  INA226, Sipeed mic array, **CanMV K230 (full-size, 85 × 56 mm, 31 g —
+  confirmed in hand 2026-11-16)**, PLA (black/white/pink matte).
 - **Design:** assembly + wiring design complete (see
   [assembly-design.md](assembly-design.md)); weight estimate 2.2–2.4 kg.
   Panda trunk is a redesign around the Pi 5 + pack; legs/hips/neck carry

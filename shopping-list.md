@@ -38,7 +38,7 @@ Prices are Open Duck BOM / AliExpress-class figures, not live-checked checkout t
 Raspberry Pi 5 8GB · Bambu Lab A1 mini · Sipeed mic array · PLA filament · lidar units (not fitted to the v1 walker — weight)
 
 ## Deliberately OFF this list
-- Eyes/camera — DECIDED 2026-11-15: Kendryte K230 with two small cameras (stereo pair at the panda eyes), UART to the Pi. IMX219-83 stereo plan superseded. (K230 board + cameras not yet on the buy list — to add.)
+- Eyes/camera — DECIDED 2026-11-15: Kendryte K230 with two small cameras (stereo pair at the panda eyes), UART to the Pi. IMX219-83 stereo plan superseded. UPDATE 2026-11-16: his board is the **full-size CanMV K230 (85 × 56 mm, 31 g), already owned** — built-in GC2093 + 2 expansion ports (CSI0/CSI1, OV5647 documented). Eye cameras still to buy: a matched OV5647 pair (15 cm FPC) is the documented route.
 - SG90 pan/tilt kit + M5Stack Unit 8Servos — replaced by the 4 neck/head STS3215s + ear servos
 - CAN HAT, GIM4305/GDZ34, 6S pack, wheels, XL4015 dock charger, 24 V dock — wheeled plan, gone
 - Cliff sensors — no equivalent on a walking build yet; stair safety is a later policy/sensor problem

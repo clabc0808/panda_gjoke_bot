@@ -59,6 +59,16 @@ proportions (350 total − ~120 legs − 95 trunk − ~25 neck stack ≈ 110–1
 7. **Mic array mounting settled**: external, at true size, as a plate on the
    trunk's back (his "glass hat") — no recessing into the panel. The R6+1's
    12-LED ring is part of its look.
+8. **K230 identity RESOLVED (his description, 2026-11-16; closes audit
+   finding F4)**: the board is the **full-size 01Studio CanMV K230** —
+   85 × 56 × 15 mm, 31 g (01Studio wiki) — already owned. Built-in GC2093
+   camera plus TWO expansion ports (CSI0/CSI1) on the board's longer sides.
+   Consequences: the §2 head layout was drawn for the mini (60 × 43 mm,
+   16 g) and must be redrawn around the bigger board — the 150 mm shell
+   still swallows the footprint, and contents rise only ~15 g to ~235 g
+   vs the 250 g budget. The camera problem gets easier: two documented
+   expansion ports make a **matched OV5647 pair (15 cm FPC)** a fully
+   on-paper stereo option, with the built-in GC2093 as a spare/third eye.
 
 ---
 
