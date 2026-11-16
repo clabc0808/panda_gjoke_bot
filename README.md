@@ -9,6 +9,10 @@ Design mass target ~2.1 kg (3 kg hard ceiling — the servo torque budget).
 This repo holds the proposal, the current build status, the shopping list,
 and the detailed assembly/wiring design.
 
+![The panda — front, the proposed design: camera-lens eyes, smiling speaker grille, short legs](images/panda-look-master-front.webp)
+
+![The panda — back: magnetic charging port on the head, Sipeed mic array on the trunk, RPLIDAR C1 belly pod underneath](images/panda-look-master-back.webp)
+
 ## The idea
 
 - **Body:** Open Duck Mini v2 legged platform — 14 bus servos, RL walking
