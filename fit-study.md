@@ -52,6 +52,13 @@ proportions (350 total − ~120 legs − 95 trunk − ~25 neck stack ≈ 110–1
    board really is **78.1 × 88.8 mm** — on the 120 × 95 mm trunk back panel
    it leaves ~3 mm spare top and bottom. It is the right part and the right
    number; the back-view render draws it too small.
+6. **Lidar placement PARKED (his word, 2026-11-16)** — the C1 is owned and
+   the belly pod works on paper, but he wants to think about it (the pod's
+   look vs the on-head costs in §7). No placement is in the design until he
+   decides; the current back-view render omits it.
+7. **Mic array mounting settled**: external, at true size, as a plate on the
+   trunk's back (his "glass hat") — no recessing into the panel. The R6+1's
+   12-LED ring is part of its look.
 
 ---
 

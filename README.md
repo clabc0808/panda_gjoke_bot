@@ -11,7 +11,7 @@ and the detailed assembly/wiring design.
 
 ![The panda — front, the proposed design: camera-lens eyes, smiling speaker grille, short legs](images/panda-look-master-front.webp)
 
-![The panda — back: magnetic charging port on the head, Sipeed mic array on the trunk, RPLIDAR C1 belly pod underneath](images/panda-look-master-back.webp)
+![The panda — back: magnetic charging port on the head, Sipeed mic array at true size as an external plate on the trunk (lidar placement parked)](images/panda-look-master-back.webp)
 
 ## The idea
 
