@@ -102,11 +102,14 @@ Full item-by-item list with specs and statuses:
 
 ## Still open
 
-- Microphone choice (report §6): I2S MEMS in the head vs the owned Sipeed
-  array in the trunk vs v1 ships without a mic.
 - Spares: 1 spare STS3215 recommended before first walks.
 - Stair/cliff safety: no sensor solution on a walking build yet — a later
   policy/sensor problem, flagged not solved.
+
+Resolved since: microphone = the owned Sipeed array on the trunk's back
+panel (fit study §7; mics-in-ears stays parked for later); charging port =
+back of the head with a tall-post dock (fit study, resolutions note); lidar
+= his RPLIDAR C1 in a belly pod under the trunk.
 
 ## Files
 
@@ -114,3 +117,6 @@ Full item-by-item list with specs and statuses:
 - `shopping-list.md` — full parts list with specs, traps and buy status
 - `assembly-design.md` — detailed assembly sequence, wiring/power map,
   weight budget, gap analysis, K230 evaluation (2026-11-16 report)
+- `fit-study.md` — packaging study: does every board fit the locked 35 cm,
+  head/trunk layouts, charging-port and lidar/mic-array placement
+  (2026-11-16, with resolutions note)

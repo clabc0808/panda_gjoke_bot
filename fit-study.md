@@ -19,6 +19,33 @@ proportions (350 total − ~120 legs − 95 trunk − ~25 neck stack ≈ 110–1
 
 ---
 
+## Resolutions added 2026-11-16 (his answers — these supersede the open items in §4–§7)
+
+1. **Lidar is a Slamtec RPLIDAR C1** — 55.6 × 55.6 × 41.3 mm, 110 g, DTOF 360°,
+   UART (manufacturer figures). §7's A1/LD06 classes no longer apply.
+   **Placement: belly pod under the trunk** — scan plane ~8–10 cm off the floor,
+   110 g carried low (helps the centre of mass). In-trunk still fails (stack +
+   window), on-head still fails (+110 g over the head budget, +41 mm height).
+2. **Charging port moves to the BACK OF THE HEAD** (his choice). The trunk back
+   panel goes to the Sipeed mic array instead (§7's port-XOR-array conflict is
+   resolved this way — both stay on the back, at different heights).
+   Dock geometry this implies: a slim post standing ~100 mm behind the parked
+   robot with a forward arm at head height (~280 mm) carrying its half — at
+   trunk height there is nothing on the centreline for the mic array to strike,
+   and the feet/heels never reach the post. The robot charges in a defined
+   **park pose** (head yaw/pitch centred, slight back-tilt so the head's back
+   panel rests toward the post; contact must not depend on servo torque alone).
+   The 2 charge leads join the reserved neck cable channel down to the IP2326
+   in the trunk (channel now ~12 wires — CAD must reserve it). INA226 charge
+   current remains the dock-success signal.
+3. **K230 cameras** — his board has 2 camera ports (never in doubt). The §5
+   flag narrows to: 01Studio documents only the OV5647 for the expansion port,
+   so a matched GC2093 pair is unproven on paper. Acceptable outcomes: ask
+   01Studio, or run GC2093 + OV5647 mixed (fine for face tracking; matched
+   matters mainly for precise stereo depth).
+
+---
+
 ## 1. Dimension table — every part, real size, source named
 
 ### Head parts
