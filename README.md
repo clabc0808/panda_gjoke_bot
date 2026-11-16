@@ -110,10 +110,11 @@ Full item-by-item list with specs and statuses:
 - Stair/cliff safety: no sensor solution on a walking build yet — a later
   policy/sensor problem, flagged not solved.
 
-Resolved since: microphone = the owned Sipeed array on the trunk's back
-panel (fit study §7; mics-in-ears stays parked for later); charging port =
-back of the head with a tall-post dock (fit study, resolutions note); lidar
-= his RPLIDAR C1 in a belly pod under the trunk.
+Resolved since: microphone = the owned Sipeed array as an external plate
+on the trunk's back panel (fit study §7; mics-in-ears stays parked for
+later); charging port = back of the head with a tall-post dock (fit study,
+resolutions note); lidar = his RPLIDAR C1 is owned, but its placement is
+parked — his decision, pending.
 
 ## Files
 
