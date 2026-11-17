@@ -84,15 +84,15 @@ replaces it.
 ## Status — what we have now (2026-11-15)
 
 - **Bought:** 4 × high-drain 18650 cells (30 A class); 3 × 6804ZZ bearings
-  (hip-roll ×2, head-roll ×1) + tools.
+  (hip-roll ×2, head-roll ×1) + tools; ReSpeaker Flex XVF3800 Circular-4
+  mic array (2026-11-17).
 - **Reported done / in cart (checkout pending):** the 14 STS3215 servos,
   MG90S ears, Waveshare adapter, BNO055 + cable, SS-10 foot switches,
   M3 heat-set inserts (M3×5×5 ×50), M3 screw assortment, cable wrap/Dupont/USB.
 - **Still to buy:** HW-391 BMS (pre-soldered-leads variant), Pololu buck
   (Pi Hut), 2S cell holders (series, 3-wire), IP2326 charger board, rocker
   switch, XT30 pre-wired pairs, Wago 221s, Loctite 243, **2 eye cameras**
-  (OV5647 pair for the K230's expansion ports, 15 cm FPC), ReSpeaker
-  Flex XVF3800 Circular-4 mic array (~US$55), 2 × 64 GB A2
+  (OV5647 pair for the K230's expansion ports, 15 cm FPC), 2 × 64 GB A2
   microSD, Pi 5 Active Cooler, sole material (3 mm neoprene sheet
   recommended).
 - **Already owned:** Pi 5 8 GB, Bambu Lab A1 mini (prints the shells),
