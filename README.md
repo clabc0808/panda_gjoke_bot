@@ -11,7 +11,7 @@ and the detailed assembly/wiring design.
 
 ![The panda — front, the proposed design: camera-lens eyes, smiling speaker grille, short legs](images/panda-look-master-front.svg)
 
-![The panda — back: magnetic charging port on the head (lidar placement parked; the mic array has since moved off the trunk back — see the 2026-11-17 note in fit-study.md, back render to be redrawn)](images/panda-look-master-back.svg)
+![The panda — back: rounded trunk shell (the flat panel only existed for the old Sipeed plate and went with it, 2026-11-17), magnetic charging port on the back of the head (lidar placement parked)](images/panda-look-master-back.svg)
 
 ## The idea
 
@@ -27,7 +27,8 @@ and the detailed assembly/wiring design.
   sends results to the Pi over UART, so vision costs the Pi nothing.
 - **Voice out:** MAX98357A I2S amp + 4 Ω 3 W waterproof speaker.
 - **Power:** 4 × high-drain 18650 in 2S2P (7.4 V, ~44 Wh), HW-391 balanced
-  BMS, Pololu 5 V buck for the Pi. Charging is **magnetic, not plug-in**: a
+  BMS, CR3520 5 V buck for the Pi (decided 2026-11-17, supersedes the
+  Pololu). Charging is **magnetic, not plug-in**: a
   charging cable connects to one half of a pre-wired magnetic pogo pair
   (already bought); the other half sits on the robot and feeds the IP2326
   charger inside. The halves touch → it charges. A printed holder keeps the
@@ -70,7 +71,7 @@ Reference renders (local project files): `panda-look-master-front.webp`,
 | IMU | Adafruit BNO055 (STEMMA QT 4646) in the trunk — the Duck's native IMU |
 | Feet | 4 × SS-10 pin-plunger contact switches, 2 per foot |
 | Battery monitor | INA226 ±20 A module (already owned) |
-| 5 V rail | Pololu D36V50F5 buck (full pack range usable, no early cutoff) |
+| 5 V rail | CR3520 fixed-5 V buck ×2 (one spare; bench-test first: 6.0 V in, 3–4 A load, hold ≥4.9 V; Pololu D36V50F5 is the fallback) |
 | Eyes | **K230 + 2 cameras** (stereo), UART results link to Pi GPIO 14/15 |
 | Charging | Magnetic pogo pair inlet (bought for the old wheeled dock, reused); hand-park now, self-dock later |
 | Not fitted (v1) | Lidar (weight), cliff sensors |
@@ -89,8 +90,9 @@ replaces it.
 - **Reported done / in cart (checkout pending):** the 14 STS3215 servos,
   MG90S ears, Waveshare adapter, BNO055 + cable, SS-10 foot switches,
   M3 heat-set inserts (M3×5×5 ×50), M3 screw assortment, cable wrap/Dupont/USB.
-- **Still to buy:** HW-391 BMS (pre-soldered-leads variant), Pololu buck
-  (Pi Hut), 2S cell holders (series, 3-wire), IP2326 charger board, rocker
+- **Still to buy:** HW-391 BMS (pre-soldered-leads variant), CR3520 buck
+  ×2 (Taobao ¥27.72 ea; bench-test first — Pololu buck is the fallback),
+  2S cell holders (series, 3-wire), IP2326 charger board, rocker
   switch, XT30 pre-wired pairs, Wago 221s, Loctite 243, **2 eye cameras**
   (OV5647 pair for the K230's expansion ports, 15 cm FPC), 2 × 64 GB A2
   microSD, Pi 5 Active Cooler, sole material (3 mm neoprene sheet
