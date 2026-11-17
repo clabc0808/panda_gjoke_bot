@@ -69,6 +69,16 @@ proportions (350 total − ~120 legs − 95 trunk − ~25 neck stack ≈ 110–1
    vs the 250 g budget. The camera problem gets easier: two documented
    expansion ports make a **matched OV5647 pair (15 cm FPC)** a fully
    on-paper stereo option, with the built-in GC2093 as a spare/third eye.
+9. **Microphone array CHANGED (his decision, 2026-11-17; supersedes
+   resolution 7 and §7.2)**: the fitted array is now the **ReSpeaker Flex
+   XVF3800 Circular-4** (Seeed) — a ~73 mm mic ring (44 mm spacing, a few
+   grams) on the head, joined by its 20 cm FPC to the processor board in
+   the trunk; USB to the Pi; AEC/beamforming/DoA on-chip. This dissolves
+   the §5.6 back-panel conflict and the F6 electrical unknowns (no I2S
+   sharing, no ~800 mA LED draw). The Sipeed R6+1 returns to spares.
+   Ring seat still open: small hat on top of the head, or inside the
+   crown behind pinholes. Research note:
+   panda-mic-array-alternatives-2026-11-17 (goal files).
 
 ---
 

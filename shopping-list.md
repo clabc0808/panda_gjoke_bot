@@ -25,6 +25,7 @@ Prices are Open Duck BOM / AliExpress-class figures, not live-checked checkout t
 
 ## Voice
 - 1 × MAX98357A I2S amp + bundled waterproof 4 Ω 3 W cavity speaker + PH2.0-to-Dupont lead (¥35.9 set, selected 2026-11-14)
+- 1 × **ReSpeaker Flex XVF3800 Circular-4** mic array (Seeed, ~US$55) — DECIDED 2026-11-17: ring on the head, processor board in the trunk, USB to the Pi. Replaces the Sipeed R6+1 plan (Sipeed stays owned, as a spare). Get the **no-XIAO** version (ships with USB firmware).
 
 ## Structure & hardware — status 2026-11-15 (his word): #1, #2, #3, #6 IN CART; #4 pending; #5 ruled out
 - 1 × pack (50) M3 brass heat-set inserts — M3×5×5 size chosen. IN CART

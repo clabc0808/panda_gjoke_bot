@@ -11,7 +11,7 @@ and the detailed assembly/wiring design.
 
 ![The panda — front, the proposed design: camera-lens eyes, smiling speaker grille, short legs](images/panda-look-master-front.svg)
 
-![The panda — back: magnetic charging port on the head, Sipeed mic array at true size as an external plate on the trunk (lidar placement parked)](images/panda-look-master-back.svg)
+![The panda — back: magnetic charging port on the head (lidar placement parked; the mic array has since moved off the trunk back — see the 2026-11-17 note in fit-study.md, back render to be redrawn)](images/panda-look-master-back.svg)
 
 ## The idea
 
@@ -47,8 +47,9 @@ Reference renders (local project files): `panda-look-master-front.webp`,
 - **Eyes are the cameras:** one lens centred in each black eye patch —
   CanMV K230 (full-size) + two small cameras behind the patches.
   Eye spacing sets the stereo baseline.
-- **Ears** ride on the MG90S servos (they wiggle). **Microphones go inside
-  the ears** — parked for later; he already owns small mics.
+- **Ears** ride on the MG90S servos (they wiggle). **Microphone array:**
+  a ReSpeaker Flex circular ring on the head (processor board in the
+  trunk); ear mics stay parked for later — he already owns small mics.
 - **Mouth:** a small smiling slot, doubling as the speaker grille.
 - **Trunk:** white belly panel over the Pi 5 + 2S2P pack; short black stub
   arms, fixed (no servos).
@@ -90,7 +91,8 @@ replaces it.
 - **Still to buy:** HW-391 BMS (pre-soldered-leads variant), Pololu buck
   (Pi Hut), 2S cell holders (series, 3-wire), IP2326 charger board, rocker
   switch, XT30 pre-wired pairs, Wago 221s, Loctite 243, **2 eye cameras**
-  (OV5647 pair for the K230's expansion ports, 15 cm FPC), 2 × 64 GB A2
+  (OV5647 pair for the K230's expansion ports, 15 cm FPC), ReSpeaker
+  Flex XVF3800 Circular-4 mic array (~US$55), 2 × 64 GB A2
   microSD, Pi 5 Active Cooler, sole material (3 mm neoprene sheet
   recommended).
 - **Already owned:** Pi 5 8 GB, Bambu Lab A1 mini (prints the shells),
@@ -112,11 +114,13 @@ Full item-by-item list with specs and statuses:
 - Stair/cliff safety: no sensor solution on a walking build yet — a later
   policy/sensor problem, flagged not solved.
 
-Resolved since: microphone = the owned Sipeed array as an external plate
-on the trunk's back panel (fit study §7; mics-in-ears stays parked for
-later); charging port = back of the head with a tall-post dock (fit study,
-resolutions note); lidar = his RPLIDAR C1 is owned, but its placement is
-parked — his decision, pending.
+Resolved since: microphone = **ReSpeaker Flex XVF3800 Circular-4**
+(decided 2026-11-17 — ring on the head, processor in the trunk, USB to
+the Pi; the owned Sipeed array returns to spares and the trunk back
+panel is free again; fit study resolutions note); charging port = back
+of the head with a tall-post dock (fit study, resolutions note); lidar
+= his RPLIDAR C1 is owned, but its placement is parked — his decision,
+pending.
 
 ## Files
 
