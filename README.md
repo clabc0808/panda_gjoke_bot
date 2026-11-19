@@ -110,6 +110,21 @@ replaces it.
 Full item-by-item list with specs and statuses:
 [shopping-list.md](shopping-list.md)
 
+## Movement Physics
+
+Paper check of the ~13 cm legs (2026-11-19, full workings in
+[movement-physics.md](movement-physics.md)): **the legs work, with
+margin.** Balanced crouch on one leg loads the knee to 3.2 kg·cm —
+under the STS3215's 5 kg·cm rated torque; worst off-balance transients
+reach ~7.7 kg·cm, ~40% of stall. Centre of mass sits at 158 mm of
+350 mm; at the planned ~0.1 m/s the foot needs to land 13 mm ahead to
+catch a fall, against 57 mm of toe. Cadence ~2 steps/s is inside the
+servos' loaded speed. Two conditions: keep total mass ≤ ~2.4 kg, and
+the gait must list a few degrees toward the standing leg — hip roll,
+not the knee, is the tightest joint (8.1 kg·cm with a level pelvis,
+3–5 kg·cm listed). Foot size and hip spacing are still CAD-pending
+assumptions; the hip-roll figure gets re-checked when CAD fixes them.
+
 ## Still open
 
 - Spares: 1 spare STS3215 recommended before first walks.
@@ -133,3 +148,6 @@ pending.
 - `fit-study.md` — packaging study: does every board fit the locked 35 cm,
   head/trunk layouts, charging-port and lidar/mic-array placement
   (2026-11-16, with resolutions note)
+- `movement-physics.md` — lever, balance and joint-speed calculations
+  for the legs: joint torques by pose, hip-roll finding, capture-point
+  margins, cadence check (2026-11-19)
