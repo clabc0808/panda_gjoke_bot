@@ -86,17 +86,15 @@ replaces it.
 
 - **Bought:** 4 × high-drain 18650 cells (30 A class); 3 × 6804ZZ bearings
   (hip-roll ×2, head-roll ×1) + tools; ReSpeaker Flex XVF3800 Circular-4
-  mic array (2026-11-17).
+  mic array (2026-11-17); GC2093 eye-camera pair for the K230
+  (72°, CSI0/CSI1 expansion, 2026-11-20).
 - **Reported done / in cart (checkout pending):** the 14 STS3215 servos,
   MG90S ears, Waveshare adapter, BNO055 + cable, SS-10 foot switches,
   M3 heat-set inserts (M3×5×5 ×50), M3 screw assortment, cable wrap/Dupont/USB.
 - **Still to buy:** HW-391 BMS (pre-soldered-leads variant), CR3520 buck
   ×2 (Taobao ¥27.72 ea; bench-test first — Pololu buck is the fallback),
   2S cell holders (series, 3-wire), IP2326 charger board, rocker
-  switch, XT30 pre-wired pairs, Wago 221s, Loctite 243, **eye cameras**
-  (OV5647 for the K230 — the CanMV K230 / 22-pin variant, NOT a
-  Raspberry Pi listing; two matched pairs, 100° + 72°, fixed focus,
-  15 cm cables), 2 × 64 GB A2
+  switch, XT30 pre-wired pairs, Wago 221s, Loctite 243, 2 × 64 GB A2
   microSD, Pi 5 Active Cooler, sole material (3 mm neoprene sheet
   recommended).
 - **Already owned:** Pi 5 8 GB, Bambu Lab A1 mini (prints the shells),
